@@ -15,11 +15,14 @@ const Tabs = (topics) => {
   //
 
   //Create the elements
+  const divTopics = document.createElement('div')
+  divTopics.classList.add('topics')
+ 
   const newDiv = () => document.createElement('div')
-  
-  
-  for (let i = 0; i < 4; i++) {
-    return newDiv();
+  for (let i = 0; i < 3; i++) {
+    let newestDiv = newDiv();
+    newDiv.classList.add('tab')
+    divTopics.appendChild.newestDiv
   }
 
 
